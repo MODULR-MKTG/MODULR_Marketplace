@@ -1,6 +1,9 @@
 {
-  "name": "MODULR",
-  "owner": "modulr",
+  "name": "modulr",
+  "owner": {
+    "name": "MODULR",
+    "email": "hello@gomodulr.com"
+  },
   "description": "Plugins for marketers and operators who want to sound like themselves at scale.",
   "version": "0.1.0",
   "plugins": [
