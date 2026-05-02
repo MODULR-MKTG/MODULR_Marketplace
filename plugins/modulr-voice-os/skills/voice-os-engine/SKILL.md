@@ -9,7 +9,9 @@ This is the always-on guardrail for email work. Load the user's voice and rules 
 
 ## Read these files in this order, every time
 
-The user's filled-in context lives in their Cowork workspace under `voice-os/context/`. Read in this order:
+The user's filled-in context lives in their Cowork workspace under `voice-os/context/` — never inside `${CLAUDE_PLUGIN_ROOT}`. The plugin folder ships defaults; the workspace folder holds the user's actual voice. Always read the workspace copy.
+
+Read in this order:
 
 1. `voice-os/context/brand-voice.md` — how they talk
 2. `voice-os/context/anti-ai-phrases.md` — words and phrases NEVER allowed

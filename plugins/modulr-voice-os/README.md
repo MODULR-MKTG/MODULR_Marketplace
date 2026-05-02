@@ -53,6 +53,18 @@ You can edit any of these later — the system reads from them every time you dr
 
 Put the `voice-os/` folder in a Google Drive shared drive (or Dropbox). Anyone on your team who installs the plugin and points Cowork at the same folder gets the same voice. Same draft quality, no per-person setup.
 
+## What lives where (and what NOT to edit)
+
+The plugin has two halves, and the line between them matters:
+
+| Lives in the plugin (managed by Cowork)         | Lives in your workspace (yours to edit)        |
+| ----------------------------------------------- | ----------------------------------------------- |
+| Bundled templates, scripts, anti-AI universal list, the wizard skill itself | `voice-os/context/*.md`, `voice-os/examples/`, `voice-os/briefs/`, `voice-os/outputs/`, `voice-os/templates/` (your overrides) |
+
+**Do not edit any file inside the installed plugin folder.** When the plugin updates, those files are overwritten and your edits are lost. Every customization the system supports has a place inside your workspace's `voice-os/` folder — including template overrides (drop a same-named file into `voice-os/templates/` and it wins over the bundled one).
+
+If you ever feel the urge to "tweak the plugin," that's the signal to either drop an override into `voice-os/` or open a request — the plugin is meant to be installed, not modified.
+
 ## Commands
 
 | Command             | What it does                                                                |

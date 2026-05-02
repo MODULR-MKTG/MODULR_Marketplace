@@ -89,4 +89,4 @@ Skip preamble. The user asked for a draft — produce a draft. Don't explain how
 
 ## Save to outputs
 
-Save the draft to `voice-os/outputs/{YYYY-MM-DD}-{format}-{slug}.md` using the user's local date. The anti-AI hook will lint it automatically on write.
+Save the draft to `voice-os/outputs/{YYYY-MM-DD}-{format}-{slug}.md` in the user's workspace using the user's local date. The anti-AI hook will lint it automatically on write. Never write into `${CLAUDE_PLUGIN_ROOT}` — all user output belongs in the workspace `voice-os/` tree.
