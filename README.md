@@ -29,6 +29,10 @@ After install, type the plugin's command in any Cowork chat. For example:
 
 That kicks off the onboarding wizard for `modulr-voice-os`.
 
+## Customizing without losing your work
+
+Plugins in this marketplace follow one rule: **nothing inside the installed plugin folder is meant to be edited.** Plugin updates overwrite those files. Each plugin writes user-customizable content (your voice profile, your examples, your overrides) into a folder in your own workspace — that folder is yours and is never touched by updates. See the individual plugin's README for the exact paths.
+
 ## Repo structure
 
 ```

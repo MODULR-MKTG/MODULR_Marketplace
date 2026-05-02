@@ -13,7 +13,15 @@ The promise: **in one sitting, the user has a working email system that drafts i
 
 Confirm the workspace folder. If the user hasn't selected one, tell them to do that first — context files have to land somewhere persistent.
 
+**The boundary that matters:** every file you write for the user goes into their workspace under `voice-os/`. Never write into `${CLAUDE_PLUGIN_ROOT}` or anywhere inside the installed plugin. Plugin updates overwrite plugin files; the user's `voice-os/` folder is theirs forever. If the user asks to "tweak a template" or "edit the example," the answer is always "let's drop a copy into your `voice-os/` folder and edit there."
+
 Then run the flow below in order. Don't skip ahead even if the user asks. Each step builds on the last.
+
+## Step -1: seed the reference example into the workspace
+
+Before any interview questions, copy the bundled example company into the user's workspace at `voice-os/reference-example/`. Source: `${CLAUDE_PLUGIN_ROOT}/example-company/`. Tell the user: **"I dropped a fully-filled-in reference (a fictional strength coach) at `voice-os/reference-example/`. Open any file there to see what 'done' looks like. It's yours to edit, delete, or keep — it lives in your workspace, not the plugin."**
+
+If `voice-os/reference-example/` already exists, leave it alone. The user may have already customized it.
 
 ## Step 0: examples gate
 
@@ -166,6 +174,7 @@ Run `/draft-email` (or invoke the draft-email skill directly) on whatever they p
 - Skip the anti-AI step "to save time" — it's the highest-leverage 10 minutes in the whole setup
 - Pitch the workshop. If the user explicitly asks where to get more help, the `workshop-info` skill handles it.
 - Ask open-ended questions when AskUserQuestion + multiple choice will work. The whole point of the wizard is to spare non-technical users from open-ended writing prompts.
+- **Edit or write anything inside `${CLAUDE_PLUGIN_ROOT}`.** The plugin folder is read-only from the user's point of view. All user files land in their workspace `voice-os/`. If the user wants to change a bundled template, copy it into `voice-os/templates/{format}.md` and edit that — the engine prefers the workspace copy over the bundled one.
 
 ## Folder layout to create in the user's workspace
 
@@ -180,8 +189,11 @@ voice-os/
 ├── examples/                    # user drops past emails here
 ├── briefs/                      # campaign-specific source material
 ├── outputs/                     # drafts land here (auto-linted)
-└── templates/                   # optional: user can override bundled templates
+├── templates/                   # optional: user can override bundled templates
+└── reference-example/           # copy of bundled example-company, safe to edit
 ```
+
+Everything above lives in the user's workspace. None of it lives in the plugin. When the plugin updates, this entire tree is untouched.
 
 If `voice-os/` already exists with filled context, ask the user before overwriting. Default: refuse to overwrite — make them rename or delete the existing folder first.
 
