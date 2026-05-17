@@ -1,0 +1,18 @@
+{
+  "name": "modulr-beehiiv-voice-mine",
+  "version": "0.1.0",
+  "description": "Reverse-engineer a brand voice profile from your top-performing beehiiv posts. Bootstraps or diffs voice-os/context/brand-voice.md from what's actually working on your list.",
+  "author": {
+    "name": "MODULR"
+  },
+  "keywords": [
+    "beehiiv",
+    "email",
+    "voice",
+    "brand-voice",
+    "copywriting",
+    "modulr"
+  ],
+  "homepage": "https://www.gomodulr.com",
+  "license": "MIT"
+}

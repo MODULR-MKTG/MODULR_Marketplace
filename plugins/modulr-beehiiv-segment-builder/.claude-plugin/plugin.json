@@ -1,0 +1,17 @@
+{
+  "name": "modulr-beehiiv-segment-builder",
+  "version": "0.1.0",
+  "description": "Translate plain-English audience descriptions into saved beehiiv segments. Skips the dashboard's condition-builder dance.",
+  "author": {
+    "name": "MODULR"
+  },
+  "keywords": [
+    "beehiiv",
+    "email",
+    "segment",
+    "audience",
+    "modulr"
+  ],
+  "homepage": "https://www.gomodulr.com",
+  "license": "MIT"
+}

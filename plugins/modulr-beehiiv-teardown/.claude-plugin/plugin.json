@@ -1,0 +1,18 @@
+{
+  "name": "modulr-beehiiv-teardown",
+  "version": "0.1.0",
+  "description": "Teardown a published beehiiv post: stats vs. baseline, link heatmap, and the single highest-leverage change for the next send.",
+  "author": {
+    "name": "MODULR"
+  },
+  "keywords": [
+    "beehiiv",
+    "email",
+    "analytics",
+    "teardown",
+    "performance",
+    "modulr"
+  ],
+  "homepage": "https://www.gomodulr.com",
+  "license": "MIT"
+}

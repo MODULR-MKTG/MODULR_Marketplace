@@ -13,10 +13,15 @@ When new plugins are published or existing ones are updated, they propagate to y
 
 ## What's in the marketplace
 
-| Plugin                          | What it does                                                                                       |
-| ------------------------------- | -------------------------------------------------------------------------------------------------- |
-| `modulr-voice-os`               | Email drafting OS that sounds like you, not AI. Wizard setup, anti-AI gate, citation discipline.   |
-| `modulr-beehiiv-list-hygiene`   | Build a beehiiv exclusion segment of burner/disposable domains and typo'd providers. One command.  |
+| Plugin                                 | What it does                                                                                       |
+| -------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `modulr-voice-os`                      | Email drafting OS that sounds like you, not AI. Wizard setup, anti-AI gate, citation discipline.   |
+| `modulr-beehiiv-list-hygiene`          | Build a beehiiv exclusion segment of burner/disposable domains and typo'd providers. One command.  |
+| `modulr-beehiiv-teardown`              | Teardown a published beehiiv post vs. baseline. Open rate, CTR, link heatmap, top fix.             |
+| `modulr-beehiiv-voice-mine`            | Reverse-engineer brand voice from your top-performing beehiiv posts.                               |
+| `modulr-beehiiv-segment-builder`       | Plain-English → saved beehiiv segment. Parses, previews size, saves via MCP.                       |
+| `modulr-beehiiv-subscriber-language`   | Mine poll and survey free-text into a structured subscriber-language file.                         |
+| `modulr-beehiiv-cadence`               | Calendar, topic-gap, and next-2-weeks recommended plan for your beehiiv sends.                     |
 
 More on the way.
 

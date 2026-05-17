@@ -22,6 +22,46 @@
       "description": "Build a beehiiv exclusion segment of burner/disposable domains, typo'd free providers, and (optionally) role-based or dormant subscribers. Cleans deliverability drag with one command.",
       "category": "marketing",
       "tags": ["email", "beehiiv", "deliverability", "list-hygiene", "segment"]
+    },
+    {
+      "name": "modulr-beehiiv-teardown",
+      "source": "./plugins/modulr-beehiiv-teardown",
+      "version": "0.1.0",
+      "description": "Teardown a published beehiiv post against a rolling baseline. Open rate, CTR, link heatmap, and the single highest-leverage change for the next send.",
+      "category": "marketing",
+      "tags": ["email", "beehiiv", "analytics", "teardown", "performance"]
+    },
+    {
+      "name": "modulr-beehiiv-voice-mine",
+      "source": "./plugins/modulr-beehiiv-voice-mine",
+      "version": "0.1.0",
+      "description": "Reverse-engineer a brand-voice profile from your top-performing beehiiv posts. Bootstraps or diffs voice-os/context/brand-voice.md.",
+      "category": "marketing",
+      "tags": ["email", "beehiiv", "voice", "brand-voice", "copywriting"]
+    },
+    {
+      "name": "modulr-beehiiv-segment-builder",
+      "source": "./plugins/modulr-beehiiv-segment-builder",
+      "version": "0.1.0",
+      "description": "Translate plain-English audience descriptions into saved beehiiv segments. Parses, previews size, and saves via the MCP — no condition-builder dance.",
+      "category": "marketing",
+      "tags": ["email", "beehiiv", "segment", "audience"]
+    },
+    {
+      "name": "modulr-beehiiv-subscriber-language",
+      "source": "./plugins/modulr-beehiiv-subscriber-language",
+      "version": "0.1.0",
+      "description": "Mine free-text from beehiiv polls and surveys into a structured subscriber-language file — fears, desires, objections, and exact vocabulary, with attribution.",
+      "category": "marketing",
+      "tags": ["email", "beehiiv", "audience", "voice-of-customer", "polls", "surveys"]
+    },
+    {
+      "name": "modulr-beehiiv-cadence",
+      "source": "./plugins/modulr-beehiiv-cadence",
+      "version": "0.1.0",
+      "description": "Newsletter cadence and topic-gap report. Pulls last 60-90 days of beehiiv sends and recommends a specific next-2-weeks plan with topic, format, and send slot.",
+      "category": "marketing",
+      "tags": ["email", "beehiiv", "calendar", "cadence", "planning"]
     }
   ]
 }
