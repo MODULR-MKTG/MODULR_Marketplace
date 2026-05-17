@@ -13,9 +13,10 @@ When new plugins are published or existing ones are updated, they propagate to y
 
 ## What's in the marketplace
 
-| Plugin             | What it does                                                                                  |
-| ------------------ | --------------------------------------------------------------------------------------------- |
-| `modulr-voice-os`  | Email drafting OS that sounds like you, not AI. Wizard setup, anti-AI gate, citation discipline. |
+| Plugin                          | What it does                                                                                       |
+| ------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `modulr-voice-os`               | Email drafting OS that sounds like you, not AI. Wizard setup, anti-AI gate, citation discipline.   |
+| `modulr-beehiiv-list-hygiene`   | Build a beehiiv exclusion segment of burner/disposable domains and typo'd providers. One command.  |
 
 More on the way.
 

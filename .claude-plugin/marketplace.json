@@ -14,6 +14,14 @@
       "description": "Email drafting OS that sounds like you, not AI. Wizard-driven setup, anti-AI gate, citation discipline.",
       "category": "marketing",
       "tags": ["email", "copywriting", "voice", "marketing"]
+    },
+    {
+      "name": "modulr-beehiiv-list-hygiene",
+      "source": "./plugins/modulr-beehiiv-list-hygiene",
+      "version": "0.1.0",
+      "description": "Build a beehiiv exclusion segment of burner/disposable domains, typo'd free providers, and (optionally) role-based or dormant subscribers. Cleans deliverability drag with one command.",
+      "category": "marketing",
+      "tags": ["email", "beehiiv", "deliverability", "list-hygiene", "segment"]
     }
   ]
 }
