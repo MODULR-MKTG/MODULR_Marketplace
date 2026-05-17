@@ -60,4 +60,4 @@ We help operators and marketers ship email that sounds like them. The plugins he
 
 - Website: https://www.gomodulr.com
 - Email: hello@gomodulr.com
-- Email-voice workshop: https://www.gomodulr.com/email-voice-workshop
+- Consulting (we run your email end to end): https://www.gomodulr.com/consulting

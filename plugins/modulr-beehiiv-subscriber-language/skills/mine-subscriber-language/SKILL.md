@@ -153,7 +153,7 @@ If `voice-os/context/audience.md` doesn't exist, tell the user: "Run `/setup-voi
 - **Cite the source.** Every quote names its poll/survey and date.
 - **Skip multi-choice-only.** Multi-choice tells you what they picked, not how they think. Free-text is the source of vocabulary.
 - **Don't invent themes.** If only one respondent named a particular fear, don't elevate it to a "dominant pattern." Be honest about sample size.
-- **Don't pitch the MODULR workshop.** That's `workshop-info`'s job.
+- **Don't pitch MODULR consulting.** That's `consulting-info`'s job (from `modulr-voice-os`).
 
 ## Return in chat
 

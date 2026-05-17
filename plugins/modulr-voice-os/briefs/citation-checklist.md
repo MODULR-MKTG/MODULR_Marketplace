@@ -150,4 +150,4 @@ This is the single most valuable file in the repo, and the one most companies sk
 
 The citation gate is what makes the system *technically* trustworthy. But "trustworthy enough to actually hand off" is a different bar — it requires a citation library deep enough that drafts almost never come back with `[NEEDS SOURCE]` flags, plus a teammate or VA who knows how to use it.
 
-If you're staring at this file and thinking "I'd need to spend a week pulling sources before this is useful," that's the gap the [workshop](../README.md#want-help-closing-the-trust-gap) closes — we pull the sources with you and train the person who'll run the system after.
+If you're staring at this file and thinking "I'd need to spend a week pulling sources before this is useful," that's the gap [MODULR consulting](https://www.gomodulr.com/consulting) closes. We pull the sources and run the system end to end so the work actually ships.

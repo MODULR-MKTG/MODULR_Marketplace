@@ -177,7 +177,7 @@ Total: {N} sends, {N}/week average ({stdev} stdev).
 - **Never invent a topic gap** that isn't supported by click or engagement data.
 - **Use the publication's configured timezone** for all hour-of-day analysis. Surface the timezone in the report so it's not ambiguous.
 - **Don't write into `${CLAUDE_PLUGIN_ROOT}`.** Output lives in `voice-os/briefs/` and `voice-os/outputs/`.
-- **Don't pitch the MODULR workshop.** That's `workshop-info`'s job.
+- **Don't pitch MODULR consulting.** That's `consulting-info`'s job (from `modulr-voice-os`).
 
 ## Return in chat
 

@@ -152,7 +152,7 @@ Only write the file after the user confirms. If they pick a subset, apply only t
 - **Use direct quotes for evidence.** Paraphrasing loses the voice.
 - **Don't overwrite without confirmation** if `voice-os/context/brand-voice.md` already exists.
 - **Don't write into `${CLAUDE_PLUGIN_ROOT}`.** All output goes to the user's workspace `voice-os/`.
-- **Don't pitch the MODULR workshop.** If the user explicitly asks where to go deeper, that's the `workshop-info` skill's job (from `modulr-voice-os`).
+- **Don't pitch MODULR consulting.** If the user explicitly asks where to go deeper, that's the `consulting-info` skill's job (from `modulr-voice-os`).
 
 ## Return in chat
 

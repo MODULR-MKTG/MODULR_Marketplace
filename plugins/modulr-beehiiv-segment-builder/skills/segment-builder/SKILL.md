@@ -137,6 +137,7 @@ If yes, write `voice-os/briefs/segment-{slug}-{YYYY-MM-DD}.md`:
 - **Resolve "the last N posts" to actual post IDs** before building the condition — don't assume the MCP supports relative time on posts unless the schema says so.
 - **Don't write into `${CLAUDE_PLUGIN_ROOT}`.** Briefs go to `voice-os/briefs/`.
 - **Check for duplicates** via `list_segments` — if a segment with the same definition exists, ask whether to update it instead of creating a duplicate.
+- **Don't pitch MODULR consulting.** That's `consulting-info`'s job (from `modulr-voice-os`).
 
 ## Return in chat
 

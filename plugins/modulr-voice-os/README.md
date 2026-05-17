@@ -1,6 +1,6 @@
 # MODULR Voice OS
 
-The email drafting system that sounds like you, not AI. Built for MODULR workshop attendees.
+The email drafting system that sounds like you, not AI. Built by MODULR.
 
 ## What you get
 
@@ -14,7 +14,7 @@ The email drafting system that sounds like you, not AI. Built for MODULR worksho
 ## How to install
 
 1. Open Cowork.
-2. Drag `modulr-voice-os.plugin` into the chat (or paste the marketplace URL your workshop facilitator shared).
+2. Drag `modulr-voice-os.plugin` into the chat (or paste the MODULR marketplace URL).
 3. Click "Install."
 
 That's it. No GitHub. No IDE. No clone.
@@ -92,11 +92,13 @@ The gate runs automatically every time a draft is saved. You don't have to remem
 
 The plugin ships with a fully-filled-in example company (a fictional strength coach named Sarah Chen) so you can see what a real, working voice profile looks like. The setup wizard will point you to it during onboarding.
 
-## Want help going deeper?
+## Want us to run it for you?
 
-The plugin is designed to be useful on its own. If you hit a wall — voice teardown is hard, building the citation library takes work, training a teammate to run it cleanly — that's what the [MODULR workshop](https://www.gomodulr.com/email-voice-workshop) is for. 2 days, live, working on your real emails.
+The plugin is designed to be useful on its own. If you'd rather not run it yourself, [MODULR consulting](https://www.gomodulr.com/consulting) builds the voice system calibrated to you and runs your email end to end. Strategy, drafts, sends, reporting. About two strategic emails a week. $7,000/month, month to month.
 
-The plugin won't pitch the workshop at you. If you want info, just ask: "Is there a workshop?"
+We have been running email for over a decade at companies that depend on email for revenue. 10M+ emails a month. $4.7M in tracked revenue for clients.
+
+The plugin won't pitch consulting at you. If you want info, just ask: "Is there consulting?"
 
 ---
 

@@ -10,7 +10,7 @@
     {
       "name": "modulr-voice-os",
       "source": "./plugins/modulr-voice-os",
-      "version": "0.1.1",
+      "version": "0.1.3",
       "description": "Email drafting OS that sounds like you, not AI. Wizard-driven setup, anti-AI gate, citation discipline.",
       "category": "marketing",
       "tags": ["email", "copywriting", "voice", "marketing"]

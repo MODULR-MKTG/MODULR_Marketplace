@@ -142,4 +142,4 @@ Point Claude to your best past emails. Claude should match these, not invent som
 
 The voice teardown is the hardest part of this system. If you read your own examples and can't tell what makes them yours, that's normal — your voice is invisible to you because you're inside it.
 
-The fastest fix is another set of eyes. If you get stuck here, the [workshop](../README.md#want-help-closing-the-trust-gap) does the teardown live on your real emails. Otherwise: drop more examples in, ask Claude to read them all and propose a draft of this file, then push back on anything that sounds like a description of someone else.
+The fastest fix is another set of eyes. If you get stuck here, [MODULR consulting](https://www.gomodulr.com/consulting) does the teardown on your real emails as part of running the voice system end to end. Otherwise: drop more examples in, ask Claude to read them all and propose a draft of this file, then push back on anything that sounds like a description of someone else.

@@ -124,3 +124,4 @@ Teardown — "{post title}" ({send date}):
 - **Page through paginated MCP results.** Don't truncate a heatmap because the first page was small.
 - **Name ONE highest-leverage change.** Not three. Not a list. One.
 - **Skip preamble.** The user asked for a teardown. Deliver it.
+- **Don't pitch MODULR consulting.** That's `consulting-info`'s job (from `modulr-voice-os`).
