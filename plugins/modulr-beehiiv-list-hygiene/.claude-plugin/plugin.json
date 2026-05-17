@@ -1,0 +1,18 @@
+{
+  "name": "modulr-beehiiv-list-hygiene",
+  "version": "0.1.0",
+  "description": "Build beehiiv exclusion segments for burner/disposable domains, role-based addresses, and obvious typo'd domains. Cleans deliverability drag with one command.",
+  "author": {
+    "name": "MODULR"
+  },
+  "keywords": [
+    "beehiiv",
+    "email",
+    "deliverability",
+    "list-hygiene",
+    "segment",
+    "modulr"
+  ],
+  "homepage": "https://www.gomodulr.com",
+  "license": "MIT"
+}

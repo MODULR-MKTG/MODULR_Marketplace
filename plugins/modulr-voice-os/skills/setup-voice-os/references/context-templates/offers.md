@@ -137,4 +137,4 @@ If you want to reference a result but don't have verified sourcing:
 
 Building the citation library is the second-hardest part of the system, after the voice teardown. Most owners get partway through and realize half their "known" stats were never actually verified — they were just repeated enough times to feel true.
 
-That's the whole reason this file exists. If you find yourself with more than a handful of `[NEEDS SOURCE]` flags and no clear way to chase them down, the [workshop](../README.md#want-help-closing-the-trust-gap) builds the citation library with you — pulling sources from your transcripts, sales pages, and customer records so the library is real before you ship anything from it.
+That's the whole reason this file exists. If you find yourself with more than a handful of `[NEEDS SOURCE]` flags and no clear way to chase them down, [MODULR consulting](https://www.gomodulr.com/consulting) builds the citation library as part of running the voice system end to end. We pull sources from your transcripts, sales pages, and customer records so the library is real before anything ships.

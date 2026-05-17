@@ -65,6 +65,6 @@ See `references/citation-rules.md` for full rules. Core: every number, name, dol
 
 See `references/voice-checklist.md` for a side-by-side reference. Use it as a self-check before handing back any draft.
 
-## On the workshop
+## On consulting
 
-Do not pitch the workshop proactively. Only the `workshop-info` skill handles that, and only when the user explicitly asks for more help. This rule is absolute.
+Do not pitch consulting proactively. Only the `consulting-info` skill handles that, and only when the user explicitly asks for more help. This rule is absolute.

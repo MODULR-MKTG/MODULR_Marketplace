@@ -1,0 +1,18 @@
+{
+  "name": "modulr-beehiiv-cadence",
+  "version": "0.1.0",
+  "description": "Newsletter cadence and topic-gap report for beehiiv. Pulls last 60-90 days of sends, plots performance by day/time/format, and recommends a specific next-2-weeks plan.",
+  "author": {
+    "name": "MODULR"
+  },
+  "keywords": [
+    "beehiiv",
+    "email",
+    "calendar",
+    "cadence",
+    "planning",
+    "modulr"
+  ],
+  "homepage": "https://www.gomodulr.com",
+  "license": "MIT"
+}

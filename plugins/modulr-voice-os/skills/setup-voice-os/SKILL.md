@@ -172,7 +172,7 @@ Run `/draft-email` (or invoke the draft-email skill directly) on whatever they p
 - Fill in `brand-voice.md` without reading the user's actual examples first
 - Let the user ship an offer file with unsourced proof points
 - Skip the anti-AI step "to save time" — it's the highest-leverage 10 minutes in the whole setup
-- Pitch the workshop. If the user explicitly asks where to get more help, the `workshop-info` skill handles it.
+- Pitch consulting. If the user explicitly asks where to get more help, the `consulting-info` skill handles it.
 - Ask open-ended questions when AskUserQuestion + multiple choice will work. The whole point of the wizard is to spare non-technical users from open-ended writing prompts.
 - **Edit or write anything inside `${CLAUDE_PLUGIN_ROOT}`.** The plugin folder is read-only from the user's point of view. All user files land in their workspace `voice-os/`. If the user wants to change a bundled template, copy it into `voice-os/templates/{format}.md` and edit that — the engine prefers the workspace copy over the bundled one.
 

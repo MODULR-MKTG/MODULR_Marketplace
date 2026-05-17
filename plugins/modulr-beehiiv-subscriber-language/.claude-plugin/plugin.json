@@ -1,0 +1,19 @@
+{
+  "name": "modulr-beehiiv-subscriber-language",
+  "version": "0.1.0",
+  "description": "Mine poll and survey free-text from beehiiv into a subscriber-language file: fears, desires, objections, and the exact words your readers actually use. Feeds /draft-email and /score-email.",
+  "author": {
+    "name": "MODULR"
+  },
+  "keywords": [
+    "beehiiv",
+    "email",
+    "audience",
+    "voice-of-customer",
+    "polls",
+    "surveys",
+    "modulr"
+  ],
+  "homepage": "https://www.gomodulr.com",
+  "license": "MIT"
+}
