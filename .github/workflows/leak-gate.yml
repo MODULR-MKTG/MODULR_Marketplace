@@ -1,0 +1,32 @@
+name: leak-gate
+
+# Blocks any change to the modulr-skills bundle that leaks an internal marker
+# (personal paths, client/prospect names, infra IDs, vault paths). The gate
+# logic lives in scripts/leak-gate.sh — this workflow just runs it on PRs and
+# pushes that touch the bundle or the script itself.
+#
+# CI runs the LEAK GATE only (--no-drift): the drift check compares against the
+# maintainer's local ~/.claude/skills, which doesn't exist on a runner. Drift is
+# an authoring-time concern; leaks are what must never reach the shared repo.
+
+on:
+  pull_request:
+    paths:
+      - 'plugins/modulr-skills/**'
+      - 'scripts/leak-gate.sh'
+      - '.github/workflows/leak-gate.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'plugins/modulr-skills/**'
+      - 'scripts/leak-gate.sh'
+      - '.github/workflows/leak-gate.yml'
+
+jobs:
+  leak-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run leak gate
+        run: bash scripts/leak-gate.sh --no-drift
