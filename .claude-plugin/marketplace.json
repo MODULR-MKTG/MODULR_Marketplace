@@ -67,7 +67,7 @@
       "name": "modulr-skills",
       "source": "./plugins/modulr-skills",
       "version": "0.1.0",
-      "description": "A growing collection of standalone skills MODULR uses in production. Steal anything useful. First up: anti-ai-phrases.",
+      "description": "A growing collection of standalone skills MODULR uses in production. Steal anything useful. Includes anti-ai-phrases, price-check, email-engagement-analysis, and musk-algorithm.",
       "category": "marketing",
       "tags": ["skills", "copywriting", "writing", "marketing"]
     }
