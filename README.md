@@ -22,6 +22,7 @@ When new plugins are published or existing ones are updated, they propagate to y
 | `modulr-beehiiv-segment-builder`       | Plain-English → saved beehiiv segment. Parses, previews size, saves via MCP.                       |
 | `modulr-beehiiv-subscriber-language`   | Mine poll and survey free-text into a structured subscriber-language file.                         |
 | `modulr-beehiiv-cadence`               | Calendar, topic-gap, and next-2-weeks recommended plan for your beehiiv sends.                     |
+| `modulr-skills`                        | A growing collection of standalone skills we use in production: `anti-ai-phrases` (scrub AI tells), `price-check` (objective pricing audit), `email-engagement-analysis` (email program deep-dive → branded PDF), `email-deliverability` (diagnose & fix inbox placement), `musk-algorithm` (first-principles efficiency audit). |
 
 More on the way.
 

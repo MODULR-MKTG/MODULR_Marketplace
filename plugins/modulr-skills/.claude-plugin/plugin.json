@@ -1,0 +1,17 @@
+{
+  "name": "modulr-skills",
+  "version": "0.1.0",
+  "description": "A growing collection of standalone skills MODULR uses in production. Steal anything useful.",
+  "author": {
+    "name": "MODULR"
+  },
+  "keywords": [
+    "skills",
+    "copywriting",
+    "marketing",
+    "writing",
+    "modulr"
+  ],
+  "homepage": "https://www.gomodulr.com",
+  "license": "MIT"
+}

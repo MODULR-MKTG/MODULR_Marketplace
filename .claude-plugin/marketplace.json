@@ -62,6 +62,14 @@
       "description": "Newsletter cadence and topic-gap report. Pulls last 60-90 days of beehiiv sends and recommends a specific next-2-weeks plan with topic, format, and send slot.",
       "category": "marketing",
       "tags": ["email", "beehiiv", "calendar", "cadence", "planning"]
+    },
+    {
+      "name": "modulr-skills",
+      "source": "./plugins/modulr-skills",
+      "version": "0.1.0",
+      "description": "A growing collection of standalone skills MODULR uses in production. Steal anything useful. Includes anti-ai-phrases, price-check, email-engagement-analysis, email-deliverability, and musk-algorithm.",
+      "category": "marketing",
+      "tags": ["skills", "copywriting", "writing", "marketing", "email", "deliverability"]
     }
   ]
 }
